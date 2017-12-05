@@ -1,3 +1,65 @@
 body{
-	background: orange;
+	margin: 0;
+	padding: 0;
+	font-family: basic-sans;
+	background: beige;
+}
+
+header{
+	background: blanchedalmond;
+	width: 100%;
+	padding: 40px 0;
+	color: burlywood;
+	text-align: center;
+}
+
+main {
+  max-width: 80%;
+  max-height: 100%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+nav ul{
+	background-color: burlywood;
+	overflow: hidden;
+	color: white;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	transition: max-height 0.4s;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+}
+
+nav ul li:hover{
+	background-color: blanchedalmond;
+}
+
+.handle{
+	width: 100%;
+	background: darksalmon;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 15px 10px;
+	cursor: pointer;
+	color: white;
+	display: none;
+}
+
+section{
+	line-height: 1.5em;
+	font-size: 0.9em;
+	padding: 40px;
+	width: 75%;
+	margin: 0 auto;
 }
