@@ -1,21 +1,36 @@
 @media screen and (max-width: 500px){
 
-	nav ul{
-		max-height: 0px;
+
+	.menu{
+		height: 100%;
+		display: none;
 	}
 
-	.show{
+	.menu.show{
 		max-height: 20em;
+		display: inherit;
 	}
 
-	nav ul li{
+	main .resp{
+		padding:50px;
+	}
+
+
+	.menu li{
 		box-sizing: border-box;
 		width: 100%;
 		padding: 15px;
 		text-align: left
 	}
 
-	.handle{
+	.menu li.close{
+		text-align: left;
 		display: block;
 	}
+
+	.handle{
+		display: inline-block;
+	}
+
+	
 }
