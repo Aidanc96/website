@@ -66,10 +66,17 @@ main {
 }
 
 section{
-	line-height: 1.5em;
-	font-size: 0.9em;
-	padding: 0px;
+
+	padding: 0;
 	width: 75%;
+	height: 100%;
 	margin: 0 auto;
 
+}
+
+section p {
+	line-height: 1.5em;
+	font-size: 0.9em;
+	margin: 0 auto;
+	padding: 10px;
 }
