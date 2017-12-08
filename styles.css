@@ -1,5 +1,6 @@
 body{
 
+	min-width: 375px;
 	margin: 0;
 	padding: 0;
 	font-family: basic-sans;
@@ -67,7 +68,7 @@ main {
 
 section{
 	padding: 0;
-	width: 75%;
+	width: 100%;
 	height: 100%;
 	margin: 0 auto;
 }
@@ -78,3 +79,17 @@ section p {
 	margin: 0 auto;
 	padding: 10px;
 }
+
+
+.gallery-imgs{
+	/*width: 100%;*/	
+}
+
+
+.gallery-imgs img{
+	display: block;
+	padding: 0.35%;
+	margin: 0 auto;
+	width:100%;
+}
+
