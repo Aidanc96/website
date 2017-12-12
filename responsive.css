@@ -1,46 +1,40 @@
-@media screen and (min-width: 375px){
+@media screen and (min-width: 400px){
+
+.menu{
+	width: 100%;
+	display: inline-block;
+	text-decoration: none;
+
+}
 
 
-	.menu{
-		height: 100%;
-		display: none;
-	}
+.menu li.close{
+	display: none;
+}
 
-	.menu.show{
-		max-height: 20em;
-		display: inherit;
-	}
 
-	main .resp{
-		padding:20px;
-	}
+.handle{
+	display: none;
+}
 
-	.menu li{
-		box-sizing: border-box;
-		width: 100%;
-		padding: 15px;
-		text-align: left
-	}
 
-	.menu li.close{
-		text-align: left;
-		display: block;
-	}
+.menu li{
+	display: inline-block;	
+	text-align: center;
+	
+}
 
-	.handle{
-		display: inline-block;
-	}
 	
 }
 
 
-@media screen and (max-width: 400px){
-
+@media screen and (min-width: 375px){
 
 
 }
 
 
 @media screen and (max-width: 1000px){
+
 
 }

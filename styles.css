@@ -1,6 +1,6 @@
 body{
 
-	min-width: 375px;
+	min-width: 400px;
 	margin: 0;
 	padding: 0;
 	font-family: basic-sans;
@@ -23,33 +23,46 @@ main {
   padding: 0px;
 }
 
-.menu a{
-	text-decoration: none;
-	color: inherit;
-}
-
 .main-nav{
 	height:0%;
 }
 
 .menu{
 	background-color: burlywood;
-	overflow: hidden;
 	color: white;
 	padding: 0;
 	margin: 0;
-	text-align: center;
 	transition: max-height 0.4s;
+	height: 100%;
+	display: none;
 }
+
+
+.menu a{
+	text-decoration: none;
+	color: inherit;
+}
+
 
 .menu li{
-	display: inline-block;
-	padding: 20px;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15px;
+	text-align: left
 }
 
-.menu li:hover{
-	background-color: blanchedalmond;
+
+.menu.show{
+	max-height: 20em;
+	display: inherit;
 }
+
+
+.menu li.close{
+	text-align: left;
+	display: block;
+}
+
 
 .handle{
 	width: 100%;
@@ -59,12 +72,14 @@ main {
 	padding: 15px 10px;
 	cursor: pointer;
 	color: white;
-	display: none;
+	display: inline-block;
 }
 
-.menu li.close{
-	display: none;
+
+.menu li:hover{
+	background-color: blanchedalmond;
 }
+
 
 section{
 	padding: 0;
@@ -72,6 +87,7 @@ section{
 	height: 100%;
 	margin: 0 auto;
 }
+
 
 section p {
 	line-height: 1.5em;
