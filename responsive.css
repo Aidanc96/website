@@ -1,0 +1,17 @@
+@media(max-width: 568px){
+	.pimg1, .pimg2, .pimg3{
+		background-attachment: scroll;
+	}
+
+	.main-nav .nav-bar{
+		display: none;
+	}
+}
+
+@media(min-width: 568px) {
+	.handle{
+		display: none;
+	}
+	
+}
+
