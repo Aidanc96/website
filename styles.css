@@ -293,8 +293,15 @@ body, html{
 
 
 
+.gallery-imgs{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
-
+.gallery-imgs .item{
+	margin: 5px;
+}
 
 
 
