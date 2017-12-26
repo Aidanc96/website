@@ -253,7 +253,42 @@ body, html{
 
 
 .slide-content{
-	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.slide-content span{
+	font-size: 5rem;
+	color: white;
+}
+
+.arrow{
+	position: absolute;
+	cursor: pointer;
+	top: 50%;
+	margin-top: -30px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+
+#arrow-left{
+	border-width: 30px 40px 30px 0;
+	border-color: transparent white transparent transparent;
+	left: 0;
+	top: 50%;
+	margin-left: 35px;
+}
+
+#arrow-right{
+	border-width: 30px 0px 30px 40px;
+	border-color: transparent transparent transparent white;
+	right: 0;
+	top: 50%;
+	margin-right: 35px; 
 }
 
 
