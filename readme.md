@@ -27,7 +27,7 @@ couple of issues where i would have forgot to capitilise a letter for curtain Ja
 
 ## Testing
 
-for testing i used W3Schools css, html5 and javascript validator to find errors for my sight. 
+for testing i used W3Schools css, html5 and javascript validator to find errors for my site. 
 Testing JavaScript it returned the type attribute is unnecessary but without it the javascript doesnt work.
 Testing CSS3 it returned a typo for a background-color, which has been corrected.
 Testing HTML5 it return nothing.
