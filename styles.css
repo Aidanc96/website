@@ -248,14 +248,30 @@ body, html{
 .slide1{
 	background-image: url('pictures/white-fairladyz.jpg');
 }
+
 .slide2{
 	background-image: url('pictures/black-gtr.jpg');
 }
+
 .slide3{
 	background-image: url('pictures/Stanced-Mazda-RX8-3.jpg');
 }
 
-/*slide show*/
+/*image text*/
+.slide-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.slide-content span{
+	font-size: 5rem;
+	color: white;
+}
+
+/*slide show arrows*/
 .arrow{
 	position: absolute;
 	cursor: pointer;
