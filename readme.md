@@ -12,10 +12,7 @@ During the development process my original design was very basic and boring and 
 i could make a more advanced website without using bootstrap for example. i decided to scrap the origninal idea 
 and go for a new approach
 
-<p align="center">
-  <img src="SiteSketches/HomePage.jpge" width="350"/>
-  <img src="your_relative_path_here_number_2_large_name" width="350"/>
-</p>
+![picture](SiteSketches.HomePage.jpg)
 
 
 
