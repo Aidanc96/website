@@ -34,4 +34,12 @@ Testing HTML5 it return nothing.
 
 looking at googles console it shows and error it the JavaScript saying cant read the proper querySelector, however the JavaScrpit works fine
 
+## References
+
+STACKOVERFLOW(2017)StackFlow. [Online] STACKOVERFLOW. Available from: https://stackoverflow.com/ [Accessed 12/12/17].
+
+W3SCHOOLS(2017) CSS Validation Service. [Online] W3SCHOOLS. Available from: https://jigsaw.w3.org/css-validator/ [Accessed 27/12/17].
+
+W3SCHOOLS(2017) Markup Validation Service. [Online] W3SCHOOLS. Available from: https://jigsaw.w3.org/ [Accessed 27/12/17].
+
 
