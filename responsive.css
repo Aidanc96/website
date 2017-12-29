@@ -8,8 +8,12 @@
 	}
 
 
-	.colunm{
-		max-width: 100%;
+	#price-table .column{
+		width: 100%;
+	}
+
+	.slide-content span{
+		font-size: 4rem;
 	}
 }
 
