@@ -12,7 +12,7 @@ During the development process my original design was very basic and boring and 
 i could make a more advanced website without using bootstrap for example. i decided to scrap the origninal idea 
 and go for a new approach
 
-![picture](SiteSketches.HomePage.jpg)
+![picture](website/SiteSketches.HomePage.jpg)
 
 
 
