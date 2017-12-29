@@ -24,3 +24,14 @@ Here are images of my designing for the website along with the site map. the ide
 so that is it easy to navigate and being able to clearly view the site. The development process as a whole when very well dispite having a
 couple of issues where i would have forgot to capitilise a letter for curtain JavaScript variables making then hard to problem solve later on.
 
+
+## Testing
+
+for testing i used W3Schools css, html5 and javascript validator to find errors for my sight. 
+Testing JavaScript it returned the type attribute is unnecessary but without it the javascript doesnt work.
+Testing CSS3 it returned a typo for a background-color, which has been corrected.
+Testing HTML5 it return nothing.
+
+looking at googles console it shows and error it the JavaScript saying cant read the proper querySelector, however the JavaScrpit works fine
+
+

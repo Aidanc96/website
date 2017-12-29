@@ -14,17 +14,42 @@
 		width: 100%;
 	}
 
- 	/*Slider text size*/
+ 	/*Slideshow text size*/
 	.slide-content span{
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 }
+
+
+@media(max-width: 700px){
+	/*slider text resizing*/
+	.slide-content span{
+		font-size: 4rem;
+	}	
+}
+
+@media(max-width: 730px){
+	/*removes logo*/
+	.main-nav h1{
+	display: none;
+}	
+}
+
+
+@media(max-width: 567px){
+	/*bring logo back in mobile view*/
+	.main-nav h1{
+	display: block;
+	}
+}
+
 
 @media(min-width: 568px) {
 	/*side menu icon to not show*/
 	.handle{
 		display: none;
 	}
+
 	
 }
 

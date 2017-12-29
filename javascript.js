@@ -12,7 +12,7 @@ function closeSideMenu(){
 }
 
 
-//glider
+//slider
 
 document.addEventListener('DOMContentLoaded', function(){
 	let wrapper = document.getElementById('wrapper');
@@ -61,7 +61,7 @@ let current = 0;
 		current++;
 	}
 
-//givent left arrow a function
+//giving left arrow a function
 	arrowLeft.addEventListener('click', function(){
 		if(current === 0){
 			current = sliderImages.length;
