@@ -42,4 +42,6 @@ W3SCHOOLS(2017) CSS Validation Service. [Online] W3SCHOOLS. Available from: http
 
 W3SCHOOLS(2017) Markup Validation Service. [Online] W3SCHOOLS. Available from: https://jigsaw.w3.org/ [Accessed 27/12/17].
 
+GOOGLE(2017) Google Images. [Online] Google. Available from: https://www.google.co.uk/imghp?hl=en&tab=wi&authuser=0 [10/12/17].
 
+PEXELS(2017) Pexel. [Online] PEXELS. Available From: https://www.pexels.com/ [12/12/17].
