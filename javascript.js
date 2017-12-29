@@ -1,11 +1,11 @@
 
-
+//open side menu
 function openSideMenu(){
 	document.getElementById('side-menu').style.width = '250px';
 	document.getElementById("main").style.marginLeft = '250px';
 }
 
-
+//close side menu
 function closeSideMenu(){
 	document.getElementById('side-menu').style.width = '0px';
 	document.getElementById("main").style.marginLeft = '0px';
@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 //slideshow
-
 let sliderImages = document.querySelectorAll('.slide');
 let arrowLeft = document.querySelector('#arrow-left');
 let arrowRight = document.querySelector('#arrow-right');
@@ -48,18 +47,21 @@ let current = 0;
 		}
 	}
 
+//moves to next image
 	function slideLeft(){
 		reset();
 		sliderImages[current - 1].style.display = 'block';
 		current--;
 	}
 
+//moves to prev image
 	function slideRight(){
 		reset();
 		sliderImages[current + 1].style.display = 'block';
 		current++;
 	}
 
+//givent left arrow a function
 	arrowLeft.addEventListener('click', function(){
 		if(current === 0){
 			current = sliderImages.length;
@@ -67,6 +69,7 @@ let current = 0;
 		slideLeft();
 	});
 
+//giving right arrow a function
 	arrowRight.addEventListener('click', function(){
 		if(current === sliderImages.length - 1){
 			current = - 1
@@ -74,7 +77,7 @@ let current = 0;
 		slideRight();
 	});
 
-
+//setting default image
 	function startSlide(){
 		reset();
 		sliderImages[0].style.display = 'block';
@@ -89,19 +92,22 @@ function initMap(){
 		zoom: 12,
 		center:{lat:52.6369,lng:-1.1398}
 	}
-
+//creating new map
 	var map = new google.maps.Map(document.getElementById('map'), options);
 
+//adding location marker
 	var marker = new google.maps.Marker({
         position:{lat:52.6298,lng:-1.1394},
-        map: map
+        map: map,
+        title: 'Click for more detials'
     });
+//information window
+    var infoWindow = new google.maps.InfoWindow({
+    	content: '<div style = "height: 150px; width: 300px"><h1>AC AUTOMOTIVE</h1><h2>Opening Times</h2><p>Monday - Friday: 9AM - 5PM</p><p>Saturday: 9AM - 2PM</p><p>Sunday: Closed</p></div>'
 
-    var infoWindow = new google.maps.infoWindow({
-    	content: '<h1>Base of Operations</h1>'
     });
-
-    marker.addEventListener('click', function(){
+//window opens when clicked
+    marker.addListener('click', function(){
     	infoWindow.open(map, marker);
     });
 

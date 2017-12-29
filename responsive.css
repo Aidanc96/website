@@ -1,17 +1,19 @@
 @media(max-width: 568px){
+	/*removes slide amintation for mobile perofrmance*/
 	.pimg1, .pimg2, .pimg3{
 		background-attachment: scroll;
 	}
-
+	/*removes nav buttons*/
 	.main-nav .nav-bar{
 		display: none;
 	}
 
-
+	/*Pricing Table Size change*/
 	#price-table .column{
 		width: 100%;
 	}
 
+ 	/*Slider text size*/
 	.slide-content span{
 		font-size: 4rem;
 	}
