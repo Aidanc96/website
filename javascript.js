@@ -83,6 +83,31 @@ let current = 0;
 
 	startSlide();
 
+//adding google maps
+function initMap(){
+	var options = {
+		zoom: 12,
+		center:{lat:52.6369,lng:-1.1398}
+	}
+
+	var map = new google.maps.Map(document.getElementById('map'), options);
+
+	var marker = new google.maps.Marker({
+        position:{lat:52.6298,lng:-1.1394},
+        map: map
+    });
+
+    var infoWindow = new google.maps.infoWindow({
+    	content: '<h1>Base of Operations</h1>'
+    });
+
+    marker.addEventListener('click', function(){
+    	infoWindow.open(map, marker);
+    });
+
+    
+}
+
 
 
 
