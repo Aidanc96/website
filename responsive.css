@@ -20,6 +20,7 @@
 }
 
 @media(min-width: 568px) {
+	/*side menu icon to not show*/
 	.handle{
 		display: none;
 	}
