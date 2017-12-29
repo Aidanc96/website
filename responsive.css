@@ -6,6 +6,11 @@
 	.main-nav .nav-bar{
 		display: none;
 	}
+
+
+	.colunm{
+		max-width: 100%;
+	}
 }
 
 @media(min-width: 568px) {

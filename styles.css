@@ -309,7 +309,6 @@ body, html{
 	margin: 0;
 	background-color: #111;
 	text-align: center;
-	
 }
 
 .gallery-imgs figcaption p{
@@ -331,18 +330,67 @@ body, html{
 }
 
 #map{
-	position: absolute;
+	position: fixed;
 	left: 5%;
+	top: 50%;
 	height: 500px;
 	width: 90%;
+}
+
+
+.price-list{
+	text-align: center;
+	font-size: 27px;
+	letter-spacing: 2px;
+	padding: 5px;
+}
+
+
+.price-table .column{
+	float: left;
+	width: 33.3%;
+	padding: 8px;
+	box-sizing:border-box;
+}
+
+.price-table .price{
+	background-color: white;
+	color: grey;
+	list-style: none;
+	border: 1px solid grey;
+	margin: 0;
+	padding: 0;
+	transition: 0.3s;
+}
+
+.price:hover, .price.promotion{
+	box-shadow: 0 10px 15px 0 black;
+}
+
+.price-table .price .header{
+	background-color: #111;
+	color: white;
+	font-size: 25px;
+}
+
+.price-table .price li{
+	padding: 20px;
+	border-bottom: 1px solid #eee;
+	text-align: center;
+
+}
+
+.price .price-bg{
+	background-color: #f4f4f4;
+	font-size: 20px;
 }
 
 .footer{
 	position: absolute;
 	bottom: 0;
-	background-color: #666;
-	color: white;
-	padding: 5px;
+	background-color: #282e34;
 	text-align: center;
 }
+
+
 
